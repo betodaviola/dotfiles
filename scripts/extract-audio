@@ -1,0 +1,47 @@
+#!/bin/bash
+
+# Extracts audio from a video file using ffmpeg without re-encoding
+
+show_help() {
+  echo "Usage: extract-audio [input-video]"
+  echo "Extracts the original audio stream and saves it to a file with the same base name."
+}
+
+# Check if help was requested
+if [[ "$1" == "--help" || "$1" == "-h" ]]; then
+  show_help
+  exit 0
+fi
+
+# Check if input is provided
+if [ "$#" -lt 1 ]; then
+  echo "Error: No input file provided."
+  show_help
+  exit 1
+fi
+
+INPUT="$1"
+
+# Check for ffprobe
+if ! command -v ffprobe >/dev/null; then
+  echo "Error: ffprobe not found. Please install ffmpeg package."
+  exit 1
+fi
+
+# Get audio codec
+AUDIO_CODEC=$(ffprobe -v error -select_streams a:0 -show_entries stream=codec_name \
+  -of default=noprint_wrappers=1:nokey=1 "$INPUT")
+
+if [ -z "$AUDIO_CODEC" ]; then
+  echo "Error: Could not detect audio codec."
+  exit 1
+fi
+
+# Set output filename
+BASENAME="${INPUT%.*}"
+OUTPUT="${BASENAME}.${AUDIO_CODEC}"
+
+# Extract audio
+ffmpeg -i "$INPUT" -vn -acodec copy "$OUTPUT"
+
+echo "Audio extracted to: $OUTPUT"
