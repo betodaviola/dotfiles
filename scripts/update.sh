@@ -26,9 +26,8 @@ done
 sudo timeshift --create
 
 ###backs up important dotfiles to my git folder
-
 #create array with the relevant paths (makes for easier editing of this script):
-declare -a dots=(".zshrc" ".bashrc" ".rofitodos" ".fehbg" ".xinitrc" ".gitconfig".config/.bash_aliases".config/i3" ".config/conky" ".config/picom" ".config/pipewire" ".config/polybar" ".config/rofi" ".config/scripts" ".config/wireplumber")
+declare -a dots=(".zshrc" ".bashrc" ".rofi_todos" ".fehbg" ".xinitrc" ".gitconfig" ".config/.bash_aliases" ".config/i3" ".config/conky" ".config/picom" ".config/pipewire" ".config/polybar" ".config/rofi" ".config/scripts" ".config/wireplumber")
 
 echo "Backing up important dotfiles"
 
@@ -38,8 +37,11 @@ do
     sudo rsync -aAuHXvis --numeric-ids --info=progress2 /home/beto/$i /mnt/storage/Stuff/beto_bkp/GitProjects/dotfiles
 done
 
-
-
+#updates dotfile repo on github
+cd /mnt/storage/Stuff/beto_bkp/GitProjects/dotfiles
+git add .
+git commit -m "Automatic backup of dotfiles done with manual update script. See .config/scripts/update.sh for more details"
+git push origin main
 
 
 

@@ -1,0 +1,211 @@
+### System Overview (fastfetch) ###
+fastfetch not installed or failed to run.
+
+
+### Explicitly Installed Official Packages (pacman) ###
+acpi - Client for battery, power, and thermal readings
+acpid - A daemon for delivering ACPI power management events with netlink support
+alsa-firmware - Firmware binaries for loader programs in alsa-tools and hotplug firmware loader
+alsa-utils - Advanced Linux Sound Architecture - Utilities
+arandr - Provide a simple visual front end for XRandR 1.2.
+archlinux-xdg-menu - automatic generate WM menu from xdg files
+base - Minimal package set to define a basic Arch Linux installation
+base-devel - Basic tools to build Arch Linux packages
+code - The Open Source build of Visual Studio Code (vscode) editor
+conky - Light-weight system monitor for X, Wayland, and other things, too
+cpupower - Linux kernel tool to examine and tune power saving related features of your processor
+ddcutil - Query and change Linux monitor settings using DDC/CI and USB.
+discord - All-in-one voice and text chat for gamers
+dolphin - KDE File Manager
+dunst - Customizable and lightweight notification-daemon
+efibootmgr - Linux user-space application to modify the EFI Boot Manager
+fastfetch - A feature-rich and performance oriented neofetch like system information tool
+feh - Fast and light imlib2-based image viewer
+firefox - Fast, Private & Safe Web Browser
+flameshot - Powerful yet simple to use screenshot software
+font-manager - A simple font management application for GTK+ Desktop Environments
+gdm - Display manager and login screen
+git - the fast distributed version control system
+gobject-introspection - Introspection system for GObject-based libraries
+grub - GNU GRand Unified Bootloader (2)
+gucharmap - Gnome Unicode Charmap
+helvum - GTK patchbay for PipeWire
+htop - Interactive process viewer
+i3status - Generates status bar to use with i3bar, dzen2 or xmobar
+i3-wm - Improved dynamic tiling window manager
+inotify-tools - inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify.
+intel-ucode - Microcode update files for Intel CPUs
+jack-example-tools - Official JACK example clients and tools
+juce - Cross-platform C++ framework
+kde-cli-tools - Tools based on KDE Frameworks to better interact with the system
+kdenlive - A non-linear video editor for Linux using the MLT video framework
+kdialog - A utility for displaying dialog boxes from shell scripts
+kitty - A modern, hackable, featureful, OpenGL-based terminal emulator
+lib32-nvidia-utils - NVIDIA drivers utilities (32-bit)
+libva-nvidia-driver - VA-API implementation that uses NVDEC as a backend
+libva-utils - Intel VA-API Media Applications and Scripts for libva
+linux - The Linux kernel and modules
+linux-firmware - Firmware files for Linux
+linux-headers - Headers and scripts for building modules for the Linux kernel
+ltrace - Tracks runtime library calls in dynamically linked programs
+mesa-utils - Essential Mesa utilities
+nano - Pico editor clone with enhancements
+networkmanager - Network connection manager and user applications
+network-manager-applet - Applet for managing network connections
+noto-fonts - Google Noto TTF fonts
+npm - JavaScript package manager
+nss-mdns - glibc plugin providing host name resolution via mDNS
+numlockx - Turns on the numlock key in X11.
+nvidia-dkms - NVIDIA kernel modules - module sources
+nvidia-prime - NVIDIA Prime Render Offload configuration and utilities
+nvtop - GPUs process monitoring for AMD, Intel and NVIDIA
+openrgb - Open source RGB lighting control that doesn't depend on manufacturer software
+os-prober - Utility to detect other OSes on a set of drives
+pacman-contrib - Contributed scripts and tools for pacman systems
+pavucontrol - PulseAudio Volume Control
+picom - Lightweight compositor for X11
+pipewire - Low-latency audio/video router and processor
+polkit-gnome - Legacy polkit authentication agent for GNOME
+polybar - A fast and easy-to-use status bar
+python-matplotlib - A python plotting library, making publication quality plots
+python-osc - Open Sound Control server and client implementations in pure Python
+python-pip - The PyPA recommended tool for installing Python packages
+python-virtualenv - Virtual Python Environment builder
+qbittorrent - An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
+qpwgraph - PipeWire Graph Qt GUI Interface
+qt5-3d - C++ and QML APIs for easy inclusion of 3D graphics
+qt5-charts - Provides a set of easy to use chart components
+qt5-connectivity - Provides access to Bluetooth hardware
+qt5-datavis3d - Qt Data Visualization module
+qt5-declarative - Classes for QML and JavaScript languages
+qt5-doc - A cross-platform application and UI framework (Documentation)
+qt5-examples - Examples and demos from qt5 documentation
+qt5-graphicaleffects - Graphical effects for use with Qt Quick 2
+qt5-imageformats - Plugins for additional image formats: TIFF, MNG, TGA, WBMP
+qt5-location - Provides access to position, satellite and area monitoring classes
+qt5-multimedia - Classes for audio, video, radio and camera functionality
+qt5-networkauth - Network authentication module
+qt5-quick3d - Qt module and API for defining 3D content in Qt Quick
+qt5-quickcontrols - Reusable Qt Quick based UI controls to create classic desktop-style user interfaces
+qt5-quickcontrols2 - Next generation user interface controls based on Qt Quick
+qt5-remoteobjects - Inter-process communication (IPC) module developed for Qt
+qt5-script - Classes for making Qt applications scriptable. Provided for Qt 4.x compatibility
+qt5-scxml - Static and runtime integration of SCXML models into Qt code
+qt5-sensors - Provides access to sensor hardware and motion gesture recognition
+qt5-serialport - Provides access to hardware and virtual serial ports
+qt5-speech - Qt module to make text to speech and speech recognition easy
+qt5-tools - A cross-platform application and UI framework (Development Tools, QtHelp)
+qt5-virtualkeyboard - Virtual keyboard framework
+qt5-wayland - Provides APIs for Wayland
+qt5-webchannel - Provides access to QObject or QML objects from HTML clients for seamless integration of Qt applications with HTML/JavaScript clients
+qt5-webengine - Provides support for web applications using the Chromium browser project
+qt5-websockets - Provides WebSocket communication compliant with RFC 6455
+qt5-xmlpatterns - Support for XPath, XQuery, XSLT and XML schema validation
+qt6-3d - C++ and QML APIs for easy inclusion of 3D graphics
+qt6-charts - Provides a set of easy to use chart components
+qt6-connectivity - Provides access to Bluetooth hardware
+qt6-datavis3d - Qt6 Data Visualization module
+qt6-doc - A cross-platform application and UI framework (Documentation)
+qt6-examples - Examples and demos from qt6 documentation
+qt6-graphs - Qt Graphs for data visualization
+qt6-grpc - Provides the modules QtGrpc and QtProtobuf
+qt6-httpserver - Qt HTTP Server
+qt6-imageformats - Plugins for additional image formats: TIFF, MNG, TGA, WBMP
+qt6-languageserver - An implementation of the Language Server Protocol
+qt6-location - Helps you create viable mapping solutions using the data available from some of the popular location services
+qt6-lottie - A family of player software for a certain json-based file format for describing 2d vector graphics animations
+qt6-networkauth - Network authentication module
+qt6-positioning - Provides access to position, satellite and area monitoring classes
+qt6-quick3d - Qt module and API for defining 3D content in Qt Quick
+qt6-quick3dphysics - Physics engine integration for Qt Quick 3D
+qt6-quickeffectmaker - Qt Quick Effect Maker (QQEM) for creating and editing custom shader effects
+qt6-quicktimeline - Qt module for keyframe-based timeline construction
+qt6-remoteobjects - Inter-process communication (IPC) module developed for Qt
+qt6-scxml - Static and runtime integration of SCXML models into Qt6 code
+qt6-sensors - Provides access to sensor hardware and motion gesture recognition
+qt6-serialbus - Qt module for general purpose serial bus access
+qt6-serialport - Provides access to hardware and virtual serial ports
+qt6-tools - A cross-platform application and UI framework (Development Tools, QtHelp)
+qt6-virtualkeyboard - Virtual keyboard framework
+qt6-webchannel - Provides access to QObject or QML objects from HTML clients for seamless integration of Qt applications with HTML/JavaScript clients
+qt6-webengine - Provides support for web applications using the Chromium browser project
+qt6-websockets - Provides WebSocket communication compliant with RFC 6455
+qt6-webview - Provides a way to display web content in a QML application
+realtime-privileges - Realtime privileges for users
+rofi - A window switcher, application launcher and dmenu replacement
+rtcqs - Scanner for potential real-time bottlenecks
+rtirq - Realtime IRQ thread system tuning.
+rt-tests - A collection of latency testing tools for the linux(-rt) kernel
+schedtool - Query or alter a process' scheduling policy
+spotify-launcher - Client for spotify's apt repository in Rust for Arch Linux
+strace - A diagnostic, debugging and instructional userspace tracer
+sudo - Give certain users the ability to run some commands as root
+thunderbird - Standalone mail and news reader from mozilla.org
+timeshift - A system restore utility for Linux
+ttf-font-awesome - Iconic font designed for Bootstrap
+ttf-liberation - Font family which aims at metric compatibility with Arial, Times New Roman, and Courier New
+ttf-nerd-fonts-symbols - High number of extra glyphs from popular 'iconic fonts'
+ttf-ubuntu-font-family - Ubuntu font family
+tuna - Thread and IRQ affinity setting GUI and cmd line tool
+usbutils - A collection of USB tools to query connected USB devices
+uwsm - A standalone Wayland session manager
+vlc - Multi-platform MPEG, VCD/DVD, and DivX player
+vulkan-tools - Vulkan tools and utilities
+waybar - Highly customizable Wayland bar for Sway and Wlroots based compositors
+wev - A tool for debugging wayland events on a Wayland window, analagous to the X11 tool xev
+wget - Network utility to retrieve files from the web
+wmctrl - Control your EWMH compliant window manager from command line
+wofi - launcher for wlroots-based wayland compositors
+xfce4-pulseaudio-plugin - Pulseaudio plugin for the Xfce4 panel
+xorg-server - Xorg X server
+xorg-xinit - X.Org initialisation program
+xorg-xinput - Small commandline tool to configure devices
+xorg-xwininfo - Command-line utility to print information about windows on an X server
+xterm - X Terminal Emulator
+zenith - Terminal system monitor with histograms
+zenity - Display graphical dialog boxes from shell scripts
+
+
+### AUR Packages (installed via yay) ###
+aquamarine-git - Aquamarine is a very light linux rendering backend library
+bitwig-studio - Digital audio workstation for music production, remixing and live performance
+clipse - A configurable TUI clipboard manager for Unix.
+ddcci-driver-linux-dkms-git - A pair of Linux kernel drivers for DDC/CI monitors (DKMS) - git version
+gyroflow - Video stabilization using gyroscope data
+hid-ite8291r3-dkms-git - Linux kernel driver for the ITE 8291 (rev 0.03) RGB keyboard backlight controller
+httpdirfs-debug - Detached debugging symbols for httpdirfs
+httpfs2-2gbplus-debug - Detached debugging symbols for httpfs2-2gbplus
+hyprcursor-git - The hyprland cursor format, library and utilities
+hyprgraphics-git - Hyprland graphics / resource utilities
+hypridle-git - Hyprland's idle daemon
+hyprland-git - Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks
+hyprland-meta-git - Meta package to install Hyprland and all related utilities
+hyprland-qt-support-git - A qml style provider for hypr* qt apps
+hyprland-qtutils-git - Hyprland QT/qml utility apps
+hyprlang-git - The official implementation library for the hypr config language
+hyprlock-git - Hyprland's GPU-accelerated screen locking utility
+hyprpaper-git - A blazing fast wayland wallpaper utility with IPC controls
+hyprpicker-git - A wlroots-compatible Wayland color picker that does not suck
+hyprpolkitagent-git - A polkit authentication agent written in QT/QML
+hyprsunset-git - An application to enable a blue-light filter on Hyprland
+hyprsysteminfo-git - A tiny qt6/qml application to display information about the running system
+hyprutils-git - Hyprland utilities library used across the ecosystem
+hyprwayland-scanner-git - A Hyprland implementation of wayland-scanner, in and for C++
+laptop-mode-tools - Power saving tool for Linux
+lib32-unixodbc - ODBC is an open specification for providing application developers with a predictable API with which to access Data Sources
+mkinitcpio-numlock - Enable numlock in early userspace
+plugdata-bin - Plugin wrapper around Pure Data with a new JUCE GUI, allowing patching in DAWs
+realtime-generic-setup - Generic realtime setup configuration
+rofi-mixer-git - A script that generates a rofi menu that uses bluetoothctl to connect to bluetooth devices and display status info
+rtapp - Realtime application thread priority tuning
+ttf-meslo-nerd-font-powerlevel10k - Meslo Nerd Font patched for Powerlevel10k
+tuxedo-backlight-control-git - GUI utility built on top of TUXEDO Keyboard. Provides a bash CLI (backlight) and a minimal Python UI.
+tuxedo-control-center-bin - A tool to help you control performance, energy, fan and comfort settings on TUXEDO laptops.
+tuxedo-drivers-dkms - TUXEDO Computers kernel module drivers for keyboard, keyboard backlight & general hardware I/O using the SysFS interface
+tuxedo-yt6801-dkms-git - Kernel module for Motorcomm YT6801 ethernet controller (DKMS)
+xdg-desktop-portal-hyprland-git - xdg-desktop-portal backend for Hyprland
+yay - Yet another yogurt. Pacman wrapper and AUR helper written in go.
+zsh-theme-powerlevel10k-git - Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
+zsh-theme-powerlevel10k-git-debug - Detached debugging symbols for zsh-theme-powerlevel10k-git
+
+
