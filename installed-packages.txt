@@ -1,5 +1,32 @@
-### System Overview (fastfetch) ###
-fastfetch not installed or failed to run.
+                 -`
+                .o+`
+               `ooo/
+              `+oooo:
+             `+oooooo:
+             -+oooooo+:
+           `/:-:++oooo+:
+          `/++++/+++++++:
+         `/++++++++++++++:
+        `/+++ooooooooooooo/`
+       ./ooosssso++osssssso+`
+      .oossssso-````/ossssss+`
+     -osssssso.      :ssssssso.
+    :osssssss/        osssso+++.
+   /ossssssss/        +ssssooo/-
+ `/ossssso+/:-        -:/+osssso+-
+`+sso+:-`                 `.-/+oso:
+`++:.                           `-/+/
+`.`                                 `/
+### System Overview ###
+OS: Arch Linux
+Kernel: 6.14.7-arch2-1
+Uptime: up 40 minutes
+Shell: /usr/bin/bash
+Packages (pacman): 1174
+WM/DE: i3
+Terminal: xterm-kitty
+CPU: Intel(R) Core(TM) i9-14900HX
+GPU(s): Intel Corporation Raptor Lake-S UHD Graphics (rev 04) NVIDIA Corporation AD107M [GeForce RTX 4060 Max-Q / Mobile] (rev a1)
 
 
 ### Explicitly Installed Official Packages (pacman) ###

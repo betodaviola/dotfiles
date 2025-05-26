@@ -6,9 +6,45 @@ OUTPUT="/mnt/storage/Stuff/beto_bkp/GitProjects/dotfiles/installed-packages.txt"
 # Start fresh
 > "$OUTPUT"
 
-# Add fastfetch output
-echo "### System Overview (fastfetch) ###" >> "$OUTPUT"
-fastfetch --no-color >> "$OUTPUT" 2>/dev/null || echo "fastfetch not installed or failed to run." >> "$OUTPUT"
+cat << "EOF" >> "$OUTPUT"
+                 -`                    
+                .o+`                   
+               `ooo/                   
+              `+oooo:                  
+             `+oooooo:                
+             -+oooooo+:               
+           `/:-:++oooo+:              
+          `/++++/+++++++:             
+         `/++++++++++++++:            
+        `/+++ooooooooooooo/`          
+       ./ooosssso++osssssso+`         
+      .oossssso-````/ossssss+`        
+     -osssssso.      :ssssssso.       
+    :osssssss/        osssso+++.      
+   /ossssssss/        +ssssooo/-      
+ `/ossssso+/:-        -:/+osssso+-    
+`+sso+:-`                 `.-/+oso:    
+`++:.                           `-/+/  
+`.`                                 `/  
+EOF
+
+### System Info Section
+echo "### System Overview ###" >> "$OUTPUT"
+echo "OS: $(source /etc/os-release && echo "$PRETTY_NAME")" >> "$OUTPUT"
+echo "Kernel: $(uname -r)" >> "$OUTPUT"
+echo "Uptime: $(uptime -p)" >> "$OUTPUT"
+echo "Shell: $SHELL" >> "$OUTPUT"
+echo "Packages (pacman): $(pacman -Qq | wc -l)" >> "$OUTPUT"
+echo "WM/DE: ${XDG_CURRENT_DESKTOP:-$DESKTOP_SESSION}" >> "$OUTPUT"
+echo "Terminal: $TERM" >> "$OUTPUT"
+
+# CPU and GPU info
+echo "CPU: $(lscpu | grep 'Model name' | sed 's/Model name:[ \t]*//')" >> "$OUTPUT"
+
+# GPU detection (Intel + NVIDIA)
+echo -n "GPU(s): " >> "$OUTPUT"
+lspci | grep -E "VGA|3D" | awk -F': ' '{print $2}' | paste -sd ' | ' >> "$OUTPUT"
+
 echo -e "\n" >> "$OUTPUT"
 
 # List official (pacman) packages with description
