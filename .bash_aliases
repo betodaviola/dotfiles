@@ -4,3 +4,9 @@ alias wconfig='cd && nano .config/hypr/hyprland.conf'
 alias pro-audio='sudo cpupower frequency-set -g performance && pw-metadata --name settings 0 clock.rate 48000 && pw-metadata --name settings 0 clock.force-quantum 256'
 alias i3logs='DISPLAY=:0 i3-dump-log'
 alias pro-gaming='xrandr --output HDMI-1-0 --primary'
+
+
+
+### script aliases
+alias update='.config/scripts/update.sh'
+alias backup='.config/scripts/backup.sh'

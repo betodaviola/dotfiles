@@ -20,9 +20,9 @@
 ### System Overview ###
 OS: Arch Linux
 Kernel: 6.14.7-arch2-1
-Uptime: up 40 minutes
+Uptime: up 25 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1174
+Packages (pacman): 1175
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
