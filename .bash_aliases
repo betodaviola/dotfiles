@@ -10,3 +10,4 @@ alias pro-gaming='xrandr --output HDMI-1-0 --primary'
 ### script aliases
 alias update='.config/scripts/update.sh'
 alias backup='.config/scripts/backup.sh'
+alias cleanup='.config/scripts/cleanup.sh'

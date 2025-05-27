@@ -20,9 +20,9 @@
 ### System Overview ###
 OS: Arch Linux
 Kernel: 6.14.7-arch2-1
-Uptime: up 25 minutes
+Uptime: up 1 hour, 47 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1175
+Packages (pacman): 1053
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -86,10 +86,8 @@ numlockx - Turns on the numlock key in X11.
 nvidia-dkms - NVIDIA kernel modules - module sources
 nvidia-prime - NVIDIA Prime Render Offload configuration and utilities
 nvtop - GPUs process monitoring for AMD, Intel and NVIDIA
-openrgb - Open source RGB lighting control that doesn't depend on manufacturer software
 os-prober - Utility to detect other OSes on a set of drives
 pacman-contrib - Contributed scripts and tools for pacman systems
-pavucontrol - PulseAudio Volume Control
 picom - Lightweight compositor for X11
 pipewire - Low-latency audio/video router and processor
 polkit-gnome - Legacy polkit authentication agent for GNOME
@@ -175,14 +173,10 @@ ttf-nerd-fonts-symbols - High number of extra glyphs from popular 'iconic fonts'
 ttf-ubuntu-font-family - Ubuntu font family
 tuna - Thread and IRQ affinity setting GUI and cmd line tool
 usbutils - A collection of USB tools to query connected USB devices
-uwsm - A standalone Wayland session manager
 vlc - Multi-platform MPEG, VCD/DVD, and DivX player
 vulkan-tools - Vulkan tools and utilities
-waybar - Highly customizable Wayland bar for Sway and Wlroots based compositors
-wev - A tool for debugging wayland events on a Wayland window, analagous to the X11 tool xev
 wget - Network utility to retrieve files from the web
 wmctrl - Control your EWMH compliant window manager from command line
-wofi - launcher for wlroots-based wayland compositors
 xfce4-pulseaudio-plugin - Pulseaudio plugin for the Xfce4 panel
 xorg-server - Xorg X server
 xorg-xinit - X.Org initialisation program
@@ -194,45 +188,22 @@ zenity - Display graphical dialog boxes from shell scripts
 
 
 ### AUR Packages (installed via yay) ###
-aquamarine-git - Aquamarine is a very light linux rendering backend library
 bitwig-studio - Digital audio workstation for music production, remixing and live performance
 clipse - A configurable TUI clipboard manager for Unix.
 ddcci-driver-linux-dkms-git - A pair of Linux kernel drivers for DDC/CI monitors (DKMS) - git version
 gyroflow - Video stabilization using gyroscope data
 hid-ite8291r3-dkms-git - Linux kernel driver for the ITE 8291 (rev 0.03) RGB keyboard backlight controller
-httpdirfs-debug - Detached debugging symbols for httpdirfs
-httpfs2-2gbplus-debug - Detached debugging symbols for httpfs2-2gbplus
-hyprcursor-git - The hyprland cursor format, library and utilities
-hyprgraphics-git - Hyprland graphics / resource utilities
-hypridle-git - Hyprland's idle daemon
-hyprland-git - Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks
-hyprland-meta-git - Meta package to install Hyprland and all related utilities
-hyprland-qt-support-git - A qml style provider for hypr* qt apps
-hyprland-qtutils-git - Hyprland QT/qml utility apps
-hyprlang-git - The official implementation library for the hypr config language
-hyprlock-git - Hyprland's GPU-accelerated screen locking utility
-hyprpaper-git - A blazing fast wayland wallpaper utility with IPC controls
-hyprpicker-git - A wlroots-compatible Wayland color picker that does not suck
-hyprpolkitagent-git - A polkit authentication agent written in QT/QML
-hyprsunset-git - An application to enable a blue-light filter on Hyprland
-hyprsysteminfo-git - A tiny qt6/qml application to display information about the running system
-hyprutils-git - Hyprland utilities library used across the ecosystem
-hyprwayland-scanner-git - A Hyprland implementation of wayland-scanner, in and for C++
 laptop-mode-tools - Power saving tool for Linux
-lib32-unixodbc - ODBC is an open specification for providing application developers with a predictable API with which to access Data Sources
 mkinitcpio-numlock - Enable numlock in early userspace
 plugdata-bin - Plugin wrapper around Pure Data with a new JUCE GUI, allowing patching in DAWs
 realtime-generic-setup - Generic realtime setup configuration
 rofi-mixer-git - A script that generates a rofi menu that uses bluetoothctl to connect to bluetooth devices and display status info
 rtapp - Realtime application thread priority tuning
 ttf-meslo-nerd-font-powerlevel10k - Meslo Nerd Font patched for Powerlevel10k
-tuxedo-backlight-control-git - GUI utility built on top of TUXEDO Keyboard. Provides a bash CLI (backlight) and a minimal Python UI.
 tuxedo-control-center-bin - A tool to help you control performance, energy, fan and comfort settings on TUXEDO laptops.
 tuxedo-drivers-dkms - TUXEDO Computers kernel module drivers for keyboard, keyboard backlight & general hardware I/O using the SysFS interface
 tuxedo-yt6801-dkms-git - Kernel module for Motorcomm YT6801 ethernet controller (DKMS)
-xdg-desktop-portal-hyprland-git - xdg-desktop-portal backend for Hyprland
 yay - Yet another yogurt. Pacman wrapper and AUR helper written in go.
 zsh-theme-powerlevel10k-git - Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
-zsh-theme-powerlevel10k-git-debug - Detached debugging symbols for zsh-theme-powerlevel10k-git
 
 
