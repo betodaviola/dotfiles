@@ -20,9 +20,9 @@
 ### System Overview ###
 OS: Arch Linux
 Kernel: 6.14.7-arch2-1
-Uptime: up 1 hour, 47 minutes
+Uptime: up 8 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1053
+Packages (pacman): 1132
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -30,19 +30,27 @@ GPU(s): Intel Corporation Raptor Lake-S UHD Graphics (rev 04) NVIDIA Corporation
 
 
 ### Explicitly Installed Official Packages (pacman) ###
+a2ps - An Any to PostScript filter
 acpi - Client for battery, power, and thermal readings
 acpid - A daemon for delivering ACPI power management events with netlink support
+adobe-source-code-pro-fonts - Monospaced font family for user interface and coding environments
+adobe-source-sans-fonts - Sans-serif font family for user interface environments
+adobe-source-serif-fonts - Serif typeface designed to complement Source Sans
 alsa-firmware - Firmware binaries for loader programs in alsa-tools and hotplug firmware loader
 alsa-utils - Advanced Linux Sound Architecture - Utilities
 arandr - Provide a simple visual front end for XRandR 1.2.
 archlinux-xdg-menu - automatic generate WM menu from xdg files
+arch-wiki-docs - Pages from Arch Wiki optimized for offline browsing
 base - Minimal package set to define a basic Arch Linux installation
 base-devel - Basic tools to build Arch Linux packages
 code - The Open Source build of Visual Studio Code (vscode) editor
 conky - Light-weight system monitor for X, Wayland, and other things, too
 cpupower - Linux kernel tool to examine and tune power saving related features of your processor
+cups - OpenPrinting CUPS - daemon package
+cups-pdf - PDF printer for cups
 ddcutil - Query and change Linux monitor settings using DDC/CI and USB.
 discord - All-in-one voice and text chat for gamers
+dmidecode - Desktop Management Interface table related utilities
 dolphin - KDE File Manager
 dunst - Customizable and lightweight notification-daemon
 efibootmgr - Linux user-space application to modify the EFI Boot Manager
@@ -58,6 +66,7 @@ grub - GNU GRand Unified Bootloader (2)
 gucharmap - Gnome Unicode Charmap
 helvum - GTK patchbay for PipeWire
 htop - Interactive process viewer
+hunspell-en_us - US English hunspell dictionaries
 i3status - Generates status bar to use with i3bar, dzen2 or xmobar
 i3-wm - Improved dynamic tiling window manager
 inotify-tools - inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify.
@@ -69,6 +78,9 @@ kdenlive - A non-linear video editor for Linux using the MLT video framework
 kdialog - A utility for displaying dialog boxes from shell scripts
 kitty - A modern, hackable, featureful, OpenGL-based terminal emulator
 lib32-nvidia-utils - NVIDIA drivers utilities (32-bit)
+libmythes - a simple thesaurus
+libreoffice-fresh - LibreOffice branch which contains new features and program enhancements
+libreoffice-fresh-pt-br - Portuguese (Brasil) language pack for LibreOffice Fresh
 libva-nvidia-driver - VA-API implementation that uses NVDEC as a backend
 libva-utils - Intel VA-API Media Applications and Scripts for libva
 linux - The Linux kernel and modules
@@ -76,6 +88,7 @@ linux-firmware - Firmware files for Linux
 linux-headers - Headers and scripts for building modules for the Linux kernel
 ltrace - Tracks runtime library calls in dynamically linked programs
 mesa-utils - Essential Mesa utilities
+mythes-en - English thesaurus
 nano - Pico editor clone with enhancements
 networkmanager - Network connection manager and user applications
 network-manager-applet - Applet for managing network connections
@@ -86,6 +99,7 @@ numlockx - Turns on the numlock key in X11.
 nvidia-dkms - NVIDIA kernel modules - module sources
 nvidia-prime - NVIDIA Prime Render Offload configuration and utilities
 nvtop - GPUs process monitoring for AMD, Intel and NVIDIA
+obs-studio - Free, open source software for live streaming and recording
 os-prober - Utility to detect other OSes on a set of drives
 pacman-contrib - Contributed scripts and tools for pacman systems
 picom - Lightweight compositor for X11
@@ -167,12 +181,18 @@ strace - A diagnostic, debugging and instructional userspace tracer
 sudo - Give certain users the ability to run some commands as root
 thunderbird - Standalone mail and news reader from mozilla.org
 timeshift - A system restore utility for Linux
+ttf-caladea - A serif font family metric-compatible with Cambria font family
+ttf-carlito - Google's Carlito font
+ttf-dejavu - Font family based on the Bitstream Vera Fonts with a wider range of characters
 ttf-font-awesome - Iconic font designed for Bootstrap
 ttf-liberation - Font family which aims at metric compatibility with Arial, Times New Roman, and Courier New
+ttf-linux-libertine-g - Graphite port of Linux Libertine and Linux Biolinum fonts
 ttf-nerd-fonts-symbols - High number of extra glyphs from popular 'iconic fonts'
 ttf-ubuntu-font-family - Ubuntu font family
 tuna - Thread and IRQ affinity setting GUI and cmd line tool
 usbutils - A collection of USB tools to query connected USB devices
+v4l2loopback-dkms - v4l2-loopback device – module sources
+v4l2loopback-utils - v4l2-loopback device – utilities only
 vlc - Multi-platform MPEG, VCD/DVD, and DivX player
 vulkan-tools - Vulkan tools and utilities
 wget - Network utility to retrieve files from the web
@@ -193,17 +213,23 @@ clipse - A configurable TUI clipboard manager for Unix.
 ddcci-driver-linux-dkms-git - A pair of Linux kernel drivers for DDC/CI monitors (DKMS) - git version
 gyroflow - Video stabilization using gyroscope data
 hid-ite8291r3-dkms-git - Linux kernel driver for the ITE 8291 (rev 0.03) RGB keyboard backlight controller
+hunspell-pt-br - Brazillian Portuguese grammar, spelling and hyphenation checker to hunspell
 laptop-mode-tools - Power saving tool for Linux
+lib32-obs-vkcapture - OBS Linux Vulkan/OpenGL game capture (32-bit)
 mkinitcpio-numlock - Enable numlock in early userspace
+obs-vkcapture - OBS Linux Vulkan/OpenGL game capture
+obs-vkcapture-debug - Detached debugging symbols for obs-vkcapture
 plugdata-bin - Plugin wrapper around Pure Data with a new JUCE GUI, allowing patching in DAWs
 realtime-generic-setup - Generic realtime setup configuration
 rofi-mixer-git - A script that generates a rofi menu that uses bluetoothctl to connect to bluetooth devices and display status info
 rtapp - Realtime application thread priority tuning
+ttf-gentium-basic - Fonts based on the original Gentium design with additional weights
 ttf-meslo-nerd-font-powerlevel10k - Meslo Nerd Font patched for Powerlevel10k
 tuxedo-control-center-bin - A tool to help you control performance, energy, fan and comfort settings on TUXEDO laptops.
 tuxedo-drivers-dkms - TUXEDO Computers kernel module drivers for keyboard, keyboard backlight & general hardware I/O using the SysFS interface
 tuxedo-yt6801-dkms-git - Kernel module for Motorcomm YT6801 ethernet controller (DKMS)
 yay - Yet another yogurt. Pacman wrapper and AUR helper written in go.
+zoom - Video Conferencing and Web Conferencing Service
 zsh-theme-powerlevel10k-git - Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
 
 
