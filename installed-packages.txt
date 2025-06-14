@@ -19,10 +19,10 @@
 `.`                                 `/
 ### System Overview ###
 OS: Arch Linux
-Kernel: 6.14.7-arch2-1
-Uptime: up 8 minutes
+Kernel: 6.14.10-arch1-1
+Uptime: up 2 hours, 21 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1132
+Packages (pacman): 1140
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -51,6 +51,7 @@ cups-pdf - PDF printer for cups
 ddcutil - Query and change Linux monitor settings using DDC/CI and USB.
 discord - All-in-one voice and text chat for gamers
 dmidecode - Desktop Management Interface table related utilities
+docker - Pack, ship and run any application as a lightweight container
 dolphin - KDE File Manager
 dunst - Customizable and lightweight notification-daemon
 efibootmgr - Linux user-space application to modify the EFI Boot Manager
@@ -77,6 +78,7 @@ kde-cli-tools - Tools based on KDE Frameworks to better interact with the system
 kdenlive - A non-linear video editor for Linux using the MLT video framework
 kdialog - A utility for displaying dialog boxes from shell scripts
 kitty - A modern, hackable, featureful, OpenGL-based terminal emulator
+less - A terminal based program for viewing text files
 lib32-nvidia-utils - NVIDIA drivers utilities (32-bit)
 libmythes - a simple thesaurus
 libreoffice-fresh - LibreOffice branch which contains new features and program enhancements
@@ -96,10 +98,12 @@ noto-fonts - Google Noto TTF fonts
 npm - JavaScript package manager
 nss-mdns - glibc plugin providing host name resolution via mDNS
 numlockx - Turns on the numlock key in X11.
+nvidia-container-toolkit - NVIDIA container toolkit
 nvidia-dkms - NVIDIA kernel modules - module sources
 nvidia-prime - NVIDIA Prime Render Offload configuration and utilities
 nvtop - GPUs process monitoring for AMD, Intel and NVIDIA
 obs-studio - Free, open source software for live streaming and recording
+ollama-cuda - Create, run and share large language models (LLMs) with CUDA
 os-prober - Utility to detect other OSes on a set of drives
 pacman-contrib - Contributed scripts and tools for pacman systems
 picom - Lightweight compositor for X11
@@ -115,7 +119,6 @@ qpwgraph - PipeWire Graph Qt GUI Interface
 qt5-3d - C++ and QML APIs for easy inclusion of 3D graphics
 qt5-charts - Provides a set of easy to use chart components
 qt5-connectivity - Provides access to Bluetooth hardware
-qt5-datavis3d - Qt Data Visualization module
 qt5-declarative - Classes for QML and JavaScript languages
 qt5-doc - A cross-platform application and UI framework (Documentation)
 qt5-examples - Examples and demos from qt5 documentation
@@ -218,8 +221,8 @@ laptop-mode-tools - Power saving tool for Linux
 lib32-obs-vkcapture - OBS Linux Vulkan/OpenGL game capture (32-bit)
 mkinitcpio-numlock - Enable numlock in early userspace
 obs-vkcapture - OBS Linux Vulkan/OpenGL game capture
-obs-vkcapture-debug - Detached debugging symbols for obs-vkcapture
 plugdata-bin - Plugin wrapper around Pure Data with a new JUCE GUI, allowing patching in DAWs
+qt5-datavis3d - Qt Data Visualization module
 realtime-generic-setup - Generic realtime setup configuration
 rofi-mixer-git - A script that generates a rofi menu that uses bluetoothctl to connect to bluetooth devices and display status info
 rtapp - Realtime application thread priority tuning
