@@ -19,10 +19,10 @@
 `.`                                 `/
 ### System Overview ###
 OS: Arch Linux
-Kernel: 6.14.10-arch1-1
-Uptime: up 2 hours, 21 minutes
+Kernel: 6.15.2-arch1-1
+Uptime: up 1 hour, 38 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1140
+Packages (pacman): 1148
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -63,6 +63,7 @@ font-manager - A simple font management application for GTK+ Desktop Environment
 gdm - Display manager and login screen
 git - the fast distributed version control system
 gobject-introspection - Introspection system for GObject-based libraries
+graphicsmagick - Image processing system
 grub - GNU GRand Unified Bootloader (2)
 gucharmap - Gnome Unicode Charmap
 helvum - GTK patchbay for PipeWire
@@ -222,6 +223,8 @@ lib32-obs-vkcapture - OBS Linux Vulkan/OpenGL game capture (32-bit)
 mkinitcpio-numlock - Enable numlock in early userspace
 obs-vkcapture - OBS Linux Vulkan/OpenGL game capture
 plugdata-bin - Plugin wrapper around Pure Data with a new JUCE GUI, allowing patching in DAWs
+python-wordcloud - A little word cloud generator in Python
+python-wordcloud-debug - Detached debugging symbols for python-wordcloud
 qt5-datavis3d - Qt Data Visualization module
 realtime-generic-setup - Generic realtime setup configuration
 rofi-mixer-git - A script that generates a rofi menu that uses bluetoothctl to connect to bluetooth devices and display status info
@@ -230,8 +233,8 @@ ttf-gentium-basic - Fonts based on the original Gentium design with additional w
 ttf-meslo-nerd-font-powerlevel10k - Meslo Nerd Font patched for Powerlevel10k
 tuxedo-control-center-bin - A tool to help you control performance, energy, fan and comfort settings on TUXEDO laptops.
 tuxedo-drivers-dkms - TUXEDO Computers kernel module drivers for keyboard, keyboard backlight & general hardware I/O using the SysFS interface
-tuxedo-yt6801-dkms-git - Kernel module for Motorcomm YT6801 ethernet controller (DKMS)
 yay - Yet another yogurt. Pacman wrapper and AUR helper written in go.
+yt6801-dkms - Kernel module for Motorcomm YT6801 ethernet controller (DKMS)
 zoom - Video Conferencing and Web Conferencing Service
 zsh-theme-powerlevel10k-git - Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
 
