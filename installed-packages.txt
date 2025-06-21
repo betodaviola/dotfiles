@@ -20,9 +20,9 @@
 ### System Overview ###
 OS: Arch Linux
 Kernel: 6.15.2-arch1-1
-Uptime: up 1 hour, 38 minutes
+Uptime: up 59 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1148
+Packages (pacman): 1178
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -76,6 +76,7 @@ intel-ucode - Microcode update files for Intel CPUs
 jack-example-tools - Official JACK example clients and tools
 juce - Cross-platform C++ framework
 kde-cli-tools - Tools based on KDE Frameworks to better interact with the system
+kdeconnect - Adds communication between KDE and your smartphone
 kdenlive - A non-linear video editor for Linux using the MLT video framework
 kdialog - A utility for displaying dialog boxes from shell scripts
 kitty - A modern, hackable, featureful, OpenGL-based terminal emulator
@@ -181,8 +182,10 @@ rtirq - Realtime IRQ thread system tuning.
 rt-tests - A collection of latency testing tools for the linux(-rt) kernel
 schedtool - Query or alter a process' scheduling policy
 spotify-launcher - Client for spotify's apt repository in Rust for Arch Linux
+sshfs - FUSE client based on the SSH File Transfer Protocol
 strace - A diagnostic, debugging and instructional userspace tracer
 sudo - Give certain users the ability to run some commands as root
+syncthing - Open Source Continuous Replication / Cluster Synchronization Thing
 thunderbird - Standalone mail and news reader from mozilla.org
 timeshift - A system restore utility for Linux
 ttf-caladea - A serif font family metric-compatible with Cambria font family
@@ -214,6 +217,8 @@ zenity - Display graphical dialog boxes from shell scripts
 ### AUR Packages (installed via yay) ###
 bitwig-studio - Digital audio workstation for music production, remixing and live performance
 clipse - A configurable TUI clipboard manager for Unix.
+c++utilities - Common C++ classes and routines such as argument parser, IO and conversion utilities
+c++utilities-debug - Detached debugging symbols for c++utilities
 ddcci-driver-linux-dkms-git - A pair of Linux kernel drivers for DDC/CI monitors (DKMS) - git version
 gyroflow - Video stabilization using gyroscope data
 hid-ite8291r3-dkms-git - Linux kernel driver for the ITE 8291 (rev 0.03) RGB keyboard backlight controller
@@ -224,11 +229,16 @@ mkinitcpio-numlock - Enable numlock in early userspace
 obs-vkcapture - OBS Linux Vulkan/OpenGL game capture
 plugdata-bin - Plugin wrapper around Pure Data with a new JUCE GUI, allowing patching in DAWs
 python-wordcloud - A little word cloud generator in Python
-python-wordcloud-debug - Detached debugging symbols for python-wordcloud
 qt5-datavis3d - Qt Data Visualization module
+qtforkawesome - Library that bundles ForkAwesome for use within Qt applications
+qtforkawesome-debug - Detached debugging symbols for qtforkawesome
+qtutilities - Common Qt related C++ classes and routines used by my applications such as dialogs, widgets and models
+qtutilities-debug - Detached debugging symbols for qtutilities
 realtime-generic-setup - Generic realtime setup configuration
 rofi-mixer-git - A script that generates a rofi menu that uses bluetoothctl to connect to bluetooth devices and display status info
 rtapp - Realtime application thread priority tuning
+syncthingtray - Tray application for Syncthing
+syncthingtray-debug - Detached debugging symbols for syncthingtray
 ttf-gentium-basic - Fonts based on the original Gentium design with additional weights
 ttf-meslo-nerd-font-powerlevel10k - Meslo Nerd Font patched for Powerlevel10k
 tuxedo-control-center-bin - A tool to help you control performance, energy, fan and comfort settings on TUXEDO laptops.

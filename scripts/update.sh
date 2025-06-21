@@ -34,12 +34,12 @@ echo "Backing up important dotfiles"
 #iterate through the array, copying every directory
 for i in "${dots[@]}"
 do
-    sudo rsync -aAuHXvis --numeric-ids --info=progress2 /home/beto/$i /mnt/storage/Stuff/beto_bkp/GitProjects/dotfiles
+    sudo rsync -aAuHXvis --numeric-ids --info=progress2 /home/beto/$i /mnt/storage/Stuff/tux_bkp/GitProjects/dotfiles
 done
 
 echo "Creating installed packages list"
 # Output file
-OUTPUT="/mnt/storage/Stuff/beto_bkp/GitProjects/dotfiles/installed-packages.txt"
+OUTPUT="/mnt/storage/Stuff/tux_bkp/GitProjects/dotfiles/installed-packages.txt"
 
 # Start fresh
 > "$OUTPUT"
@@ -104,7 +104,7 @@ echo -e "\n" >> "$OUTPUT"
 echo "System package list saved to $OUTPUT"
 
 #updates dotfile repo on github
-cd /mnt/storage/Stuff/beto_bkp/GitProjects/dotfiles
+cd /mnt/storage/Stuff/tux_bkp/GitProjects/dotfiles
 git add .
 git commit -m "Automatic backup of dotfiles done with manual update script. See .config/scripts/update.sh for more details"
 git push origin main
