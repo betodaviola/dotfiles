@@ -20,9 +20,9 @@
 ### System Overview ###
 OS: Arch Linux
 Kernel: 6.15.2-arch1-1
-Uptime: up 59 minutes
+Uptime: up 5 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1178
+Packages (pacman): 1165
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -52,6 +52,7 @@ ddcutil - Query and change Linux monitor settings using DDC/CI and USB.
 discord - All-in-one voice and text chat for gamers
 dmidecode - Desktop Management Interface table related utilities
 docker - Pack, ship and run any application as a lightweight container
+docker-compose - Fast, isolated development environments using Docker
 dolphin - KDE File Manager
 dunst - Customizable and lightweight notification-daemon
 efibootmgr - Linux user-space application to modify the EFI Boot Manager
@@ -217,8 +218,6 @@ zenity - Display graphical dialog boxes from shell scripts
 ### AUR Packages (installed via yay) ###
 bitwig-studio - Digital audio workstation for music production, remixing and live performance
 clipse - A configurable TUI clipboard manager for Unix.
-c++utilities - Common C++ classes and routines such as argument parser, IO and conversion utilities
-c++utilities-debug - Detached debugging symbols for c++utilities
 ddcci-driver-linux-dkms-git - A pair of Linux kernel drivers for DDC/CI monitors (DKMS) - git version
 gyroflow - Video stabilization using gyroscope data
 hid-ite8291r3-dkms-git - Linux kernel driver for the ITE 8291 (rev 0.03) RGB keyboard backlight controller
@@ -230,15 +229,9 @@ obs-vkcapture - OBS Linux Vulkan/OpenGL game capture
 plugdata-bin - Plugin wrapper around Pure Data with a new JUCE GUI, allowing patching in DAWs
 python-wordcloud - A little word cloud generator in Python
 qt5-datavis3d - Qt Data Visualization module
-qtforkawesome - Library that bundles ForkAwesome for use within Qt applications
-qtforkawesome-debug - Detached debugging symbols for qtforkawesome
-qtutilities - Common Qt related C++ classes and routines used by my applications such as dialogs, widgets and models
-qtutilities-debug - Detached debugging symbols for qtutilities
 realtime-generic-setup - Generic realtime setup configuration
 rofi-mixer-git - A script that generates a rofi menu that uses bluetoothctl to connect to bluetooth devices and display status info
 rtapp - Realtime application thread priority tuning
-syncthingtray - Tray application for Syncthing
-syncthingtray-debug - Detached debugging symbols for syncthingtray
 ttf-gentium-basic - Fonts based on the original Gentium design with additional weights
 ttf-meslo-nerd-font-powerlevel10k - Meslo Nerd Font patched for Powerlevel10k
 tuxedo-control-center-bin - A tool to help you control performance, energy, fan and comfort settings on TUXEDO laptops.

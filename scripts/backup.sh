@@ -6,7 +6,7 @@ LABEL="betoRed"
 MOUNTPOINT="/mnt/betoRed-bkp"
 NOW=$(date +"%Y.%m.%d_%H.%M.%S")
 COPIES=2  # Number of total copies to keep
-SRC_DIR="/mnt/storage/Stuff/beto_bkp"
+SRC_DIR="/mnt/storage/Stuff/tux_bkp"
 
 # Check if already mounted
 if mountpoint -q "$MOUNTPOINT"; then
@@ -26,7 +26,7 @@ fi
 
 # Perform rsync backup
 echo "Backing up storage."
-sudo rsync -aAuHXvis --numeric-ids --info=progress2 /mnt/storage/Stuff/beto_bkp/ /mnt/betoRed-bkp/storage-beto-bkp/beto-bkp[${NOW}]
+sudo rsync -aAuHXvis --numeric-ids --info=progress2 /mnt/storage/Stuff/tux_bkp/ /mnt/betoRed-bkp/storage-beto-bkp/beto-bkp[${NOW}]
 echo "Backing up home directory."
 sudo rsync -aAuHXvis --numeric-ids --info=progress2 /home/beto/ /mnt/betoRed-bkp/beto-home-bkp/beto-home[${NOW}]
 echo "Backing up timeshift snapshots."
