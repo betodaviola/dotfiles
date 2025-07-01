@@ -20,9 +20,9 @@
 ### System Overview ###
 OS: Arch Linux
 Kernel: 6.15.2-arch1-1
-Uptime: up 5 minutes
+Uptime: up 25 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1165
+Packages (pacman): 1166
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -75,6 +75,7 @@ i3-wm - Improved dynamic tiling window manager
 inotify-tools - inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify.
 intel-ucode - Microcode update files for Intel CPUs
 jack-example-tools - Official JACK example clients and tools
+jq - Command-line JSON processor
 juce - Cross-platform C++ framework
 kde-cli-tools - Tools based on KDE Frameworks to better interact with the system
 kdeconnect - Adds communication between KDE and your smartphone
@@ -89,7 +90,7 @@ libreoffice-fresh-pt-br - Portuguese (Brasil) language pack for LibreOffice Fres
 libva-nvidia-driver - VA-API implementation that uses NVDEC as a backend
 libva-utils - Intel VA-API Media Applications and Scripts for libva
 linux - The Linux kernel and modules
-linux-firmware - Firmware files for Linux
+linux-firmware - Firmware files for Linux - Default set
 linux-headers - Headers and scripts for building modules for the Linux kernel
 ltrace - Tracks runtime library calls in dynamically linked programs
 mesa-utils - Essential Mesa utilities
