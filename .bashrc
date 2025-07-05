@@ -160,3 +160,8 @@ source "$OSH"/oh-my-bash.sh
 if [ -f ~/.config/.bash_aliases ]; then
 . ~/.config/.bash_aliases
 fi
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"

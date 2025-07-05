@@ -19,10 +19,10 @@
 `.`                                 `/
 ### System Overview ###
 OS: Arch Linux
-Kernel: 6.15.2-arch1-1
-Uptime: up 38 minutes
+Kernel: 6.15.4-arch2-1
+Uptime: up 2 hours, 28 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1165
+Packages (pacman): 1188
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -90,6 +90,7 @@ libreoffice-fresh-pt-br - Portuguese (Brasil) language pack for LibreOffice Fres
 libva-nvidia-driver - VA-API implementation that uses NVDEC as a backend
 libva-utils - Intel VA-API Media Applications and Scripts for libva
 linux - The Linux kernel and modules
+linux-firmware - Firmware files for Linux - Default set
 linux-headers - Headers and scripts for building modules for the Linux kernel
 ltrace - Tracks runtime library calls in dynamically linked programs
 mesa-utils - Essential Mesa utilities
@@ -113,9 +114,11 @@ picom - Lightweight compositor for X11
 pipewire - Low-latency audio/video router and processor
 polkit-gnome - Legacy polkit authentication agent for GNOME
 polybar - A fast and easy-to-use status bar
+pyenv - Easily switch between multiple versions of Python
 python-matplotlib - A python plotting library, making publication quality plots
 python-osc - Open Sound Control server and client implementations in pure Python
 python-pip - The PyPA recommended tool for installing Python packages
+python-playwright - A Python library to automate Chromium, Firefox and WebKit browsers with a single API
 python-virtualenv - Virtual Python Environment builder
 qbittorrent - An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
 qpwgraph - PipeWire Graph Qt GUI Interface

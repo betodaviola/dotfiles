@@ -5,6 +5,8 @@ alias pro-audio='sudo cpupower frequency-set -g performance && pw-metadata --nam
 alias i3logs='DISPLAY=:0 i3-dump-log'
 alias pro-gaming='xrandr --output HDMI-1-0 --primary'
 alias git-projects='cd /mnt/storage/Stuff/tux_bkp/GitProjetcs'
+alias stable-audio='cd && source stable-audio-tools/.venv/bin/activate && cd'
+
 
 
 ### script aliases
@@ -12,3 +14,4 @@ alias update='.config/scripts/update.sh'
 alias backup='.config/scripts/backup.sh'
 alias cleanup='.config/scripts/cleanup.sh'
 alias wiki='.config/scripts/archwiki-offline'
+alias screen-connect='.config/scripts/screen-connect.sh'
