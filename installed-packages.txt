@@ -20,9 +20,9 @@
 ### System Overview ###
 OS: Arch Linux
 Kernel: 6.15.4-arch2-1
-Uptime: up 2 hours, 28 minutes
+Uptime: up 2 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1188
+Packages (pacman): 1203
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -230,6 +230,8 @@ lib32-obs-vkcapture - OBS Linux Vulkan/OpenGL game capture (32-bit)
 mkinitcpio-numlock - Enable numlock in early userspace
 obs-vkcapture - OBS Linux Vulkan/OpenGL game capture
 plugdata-bin - Plugin wrapper around Pure Data with a new JUCE GUI, allowing patching in DAWs
+python-diffusers - Pretrained diffusion models for image and audio generation in PyTorch
+python-safetensors - Simple, safe way to store and distribute tensors
 python-wordcloud - A little word cloud generator in Python
 qt5-datavis3d - Qt Data Visualization module
 realtime-generic-setup - Generic realtime setup configuration

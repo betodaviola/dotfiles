@@ -5,7 +5,7 @@ alias pro-audio='sudo cpupower frequency-set -g performance && pw-metadata --nam
 alias i3logs='DISPLAY=:0 i3-dump-log'
 alias pro-gaming='xrandr --output HDMI-1-0 --primary'
 alias git-projects='cd /mnt/storage/Stuff/tux_bkp/GitProjetcs'
-alias stable-audio='cd && source stable-audio-tools/.venv/bin/activate && cd'
+alias stable-audio='source ~/stable-audio-tools/.venv/bin/activate'
 
 
 

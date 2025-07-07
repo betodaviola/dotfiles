@@ -165,3 +165,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
+
+
+export HF_HOME="/mnt/storage/stableAudioModels"
+alias set-focusrite='wpctl set-default alsa_output.usb-Focusrite_Scarlett_Solo_USB-00.pro-output-0'
