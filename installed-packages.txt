@@ -19,10 +19,10 @@
 `.`                                 `/
 ### System Overview ###
 OS: Arch Linux
-Kernel: 6.15.4-arch2-1
+Kernel: 6.15.5-arch1-1
 Uptime: up 2 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1203
+Packages (pacman): 1207
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -64,7 +64,6 @@ font-manager - A simple font management application for GTK+ Desktop Environment
 gdm - Display manager and login screen
 git - the fast distributed version control system
 gobject-introspection - Introspection system for GObject-based libraries
-graphicsmagick - Image processing system
 grub - GNU GRand Unified Bootloader (2)
 gucharmap - Gnome Unicode Charmap
 helvum - GTK patchbay for PipeWire
@@ -72,6 +71,7 @@ htop - Interactive process viewer
 hunspell-en_us - US English hunspell dictionaries
 i3status - Generates status bar to use with i3bar, dzen2 or xmobar
 i3-wm - Improved dynamic tiling window manager
+imv - Image viewer for Wayland and X11
 inotify-tools - inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify.
 intel-ucode - Microcode update files for Intel CPUs
 jack-example-tools - Official JACK example clients and tools
@@ -114,6 +114,7 @@ picom - Lightweight compositor for X11
 pipewire - Low-latency audio/video router and processor
 polkit-gnome - Legacy polkit authentication agent for GNOME
 polybar - A fast and easy-to-use status bar
+pqiv - Powerful image viewer with minimal UI
 pyenv - Easily switch between multiple versions of Python
 python-matplotlib - A python plotting library, making publication quality plots
 python-osc - Open Sound Control server and client implementations in pure Python
@@ -185,6 +186,7 @@ rtcqs - Scanner for potential real-time bottlenecks
 rtirq - Realtime IRQ thread system tuning.
 rt-tests - A collection of latency testing tools for the linux(-rt) kernel
 schedtool - Query or alter a process' scheduling policy
+sox - The Swiss Army knife of sound processing tools
 spotify-launcher - Client for spotify's apt repository in Rust for Arch Linux
 sshfs - FUSE client based on the SSH File Transfer Protocol
 strace - A diagnostic, debugging and instructional userspace tracer
@@ -208,6 +210,7 @@ vlc - Multi-platform MPEG, VCD/DVD, and DivX player
 vulkan-tools - Vulkan tools and utilities
 wget - Network utility to retrieve files from the web
 wmctrl - Control your EWMH compliant window manager from command line
+xdotool - Command-line X11 automation tool
 xfce4-pulseaudio-plugin - Pulseaudio plugin for the Xfce4 panel
 xorg-server - Xorg X server
 xorg-xinit - X.Org initialisation program
@@ -229,6 +232,7 @@ laptop-mode-tools - Power saving tool for Linux
 lib32-obs-vkcapture - OBS Linux Vulkan/OpenGL game capture (32-bit)
 mkinitcpio-numlock - Enable numlock in early userspace
 obs-vkcapture - OBS Linux Vulkan/OpenGL game capture
+phonon-qt6-mpv - Phonon MPV backend for Qt6
 plugdata-bin - Plugin wrapper around Pure Data with a new JUCE GUI, allowing patching in DAWs
 python-diffusers - Pretrained diffusion models for image and audio generation in PyTorch
 python-safetensors - Simple, safe way to store and distribute tensors
