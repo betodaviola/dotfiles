@@ -19,10 +19,10 @@
 `.`                                 `/
 ### System Overview ###
 OS: Arch Linux
-Kernel: 6.15.5-arch1-1
-Uptime: up 2 minutes
+Kernel: 6.15.6-arch1-1
+Uptime: up 58 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1207
+Packages (pacman): 1223
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
