@@ -4,7 +4,7 @@ alias wconfig='cd && nano .config/hypr/hyprland.conf'
 alias pro-audio='sudo cpupower frequency-set -g performance && pw-metadata --name settings 0 clock.rate 48000 && pw-metadata --name settings 0 clock.force-quantum 256'
 alias i3logs='DISPLAY=:0 i3-dump-log'
 alias pro-gaming='xrandr --output HDMI-1-0 --primary'
-alias git-projects='cd /mnt/storage/Stuff/tux_bkp/GitProjetcs'
+alias git-projects='cd /mnt/storage/Stuff/tux_bkp/GitProjects'
 alias stable-audio='source ~/stable-audio-tools/.venv/bin/activate'
 
 
@@ -15,3 +15,5 @@ alias backup='.config/scripts/backup.sh'
 alias cleanup='.config/scripts/cleanup.sh'
 alias wiki='.config/scripts/archwiki-offline'
 alias screen-connect='.config/scripts/screen-connect.sh'
+
+alias colmis='cd /mnt/storage/Stuff/tux_bkp/GitProjects/colectiveMisinterpretation && ./collectiveMisinterpretation.sh'

@@ -12,6 +12,6 @@ polybar polybar1 -c ~/.config/polybar/config1.ini 2>&1 | tee -a /tmp/polybar.log
 
 if [ -n "$EXT_MON" ]; then
     xrandr --output "$EXT_MON" --auto --left-of "$INT_MON" --output "$INT_MON" --auto
-    feh --bg-fill /home/beto/Pictures/wallpapers/commuTux.jpg
+    feh --bg-fill /home/beto/Pictures/wallpapers/sfwtux.png
     polybar polybar1 -c ~/.config/polybar/config2.ini 2>&1 | tee -a /tmp/polybar.log & disown
 fi

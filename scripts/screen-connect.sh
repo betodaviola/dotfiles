@@ -70,7 +70,7 @@ esac
 
 # Apply with xrandr
 xrandr --output "$EXTERNAL" --auto "$POS_OPT" "$INTERNAL" --rotate "$ROTATE"
-feh --bg-fill /home/beto/Pictures/wallpapers/commuTux.jpg #set wallpaper
+feh --bg-fill /home/beto/Pictures/wallpapers/sfwtux.png #set wallpaper
 killall polybar
 while pgrep -x polybar >/dev/null; do sleep 0.1; done
 polybar polybar1 -c ~/.config/polybar/config1.ini 2>&1 | tee -a /tmp/polybar.log & disown

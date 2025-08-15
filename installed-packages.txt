@@ -20,7 +20,7 @@
 ### System Overview ###
 OS: Arch Linux
 Kernel: 6.15.6-arch1-1
-Uptime: up 1 hour, 4 minutes
+Uptime: up 28 minutes
 Shell: /usr/bin/bash
 Packages (pacman): 1223
 WM/DE: i3

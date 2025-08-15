@@ -249,7 +249,7 @@ bindsym $mod+b exec firefox
 bindsym $mod+f exec dolphin
 
 #commands
-exec_always --no-startup-id feh --bg-fill /home/beto/Pictures/wallpapers/commuTux.jpg #set wallpaper
+exec_always --no-startup-id feh --bg-fill /home/beto/Pictures/wallpapers/sfwtux.png #set wallpaper
 exec_always --no-startup-id  /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 exec_always --no-startup-id numlockx &
 exec --no-startup-id picom -b
