@@ -19,10 +19,10 @@
 `.`                                 `/
 ### System Overview ###
 OS: Arch Linux
-Kernel: 6.15.6-arch1-1
-Uptime: up 28 minutes
+Kernel: 6.16.0-arch2-1
+Uptime: up 27 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1223
+Packages (pacman): 1262
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -41,6 +41,7 @@ alsa-utils - Advanced Linux Sound Architecture - Utilities
 arandr - Provide a simple visual front end for XRandR 1.2.
 archlinux-xdg-menu - automatic generate WM menu from xdg files
 arch-wiki-docs - Pages from Arch Wiki optimized for offline browsing
+ardour - Professional-grade digital audio workstation
 base - Minimal package set to define a basic Arch Linux installation
 base-devel - Basic tools to build Arch Linux packages
 code - The Open Source build of Visual Studio Code (vscode) editor
@@ -63,6 +64,7 @@ flameshot - Powerful yet simple to use screenshot software
 font-manager - A simple font management application for GTK+ Desktop Environments
 gdm - Display manager and login screen
 git - the fast distributed version control system
+gnuplot - Plotting package which outputs to X11, PostScript, PNG, GIF, and others
 gobject-introspection - Introspection system for GObject-based libraries
 grub - GNU GRand Unified Bootloader (2)
 gucharmap - Gnome Unicode Charmap
@@ -84,6 +86,7 @@ kdialog - A utility for displaying dialog boxes from shell scripts
 kitty - A modern, hackable, featureful, OpenGL-based terminal emulator
 less - A terminal based program for viewing text files
 lib32-nvidia-utils - NVIDIA drivers utilities (32-bit)
+libdvdcss - Portable abstraction library for DVD decryption
 libmythes - a simple thesaurus
 libreoffice-fresh - LibreOffice branch which contains new features and program enhancements
 libreoffice-fresh-pt-br - Portuguese (Brasil) language pack for LibreOffice Fresh
@@ -92,6 +95,7 @@ libva-utils - Intel VA-API Media Applications and Scripts for libva
 linux - The Linux kernel and modules
 linux-firmware - Firmware files for Linux - Default set
 linux-headers - Headers and scripts for building modules for the Linux kernel
+loupe - A simple image viewer for GNOME
 ltrace - Tracks runtime library calls in dynamically linked programs
 mesa-utils - Essential Mesa utilities
 mythes-en - English thesaurus
@@ -116,6 +120,7 @@ polkit-gnome - Legacy polkit authentication agent for GNOME
 polybar - A fast and easy-to-use status bar
 pqiv - Powerful image viewer with minimal UI
 pyenv - Easily switch between multiple versions of Python
+python-httpx - A next generation HTTP client for Python
 python-matplotlib - A python plotting library, making publication quality plots
 python-osc - Open Sound Control server and client implementations in pure Python
 python-pip - The PyPA recommended tool for installing Python packages
@@ -197,7 +202,6 @@ timeshift - A system restore utility for Linux
 ttf-caladea - A serif font family metric-compatible with Cambria font family
 ttf-carlito - Google's Carlito font
 ttf-dejavu - Font family based on the Bitstream Vera Fonts with a wider range of characters
-ttf-font-awesome - Iconic font designed for Bootstrap
 ttf-liberation - Font family which aims at metric compatibility with Arial, Times New Roman, and Courier New
 ttf-linux-libertine-g - Graphite port of Linux Libertine and Linux Biolinum fonts
 ttf-nerd-fonts-symbols - High number of extra glyphs from popular 'iconic fonts'
@@ -206,10 +210,14 @@ tuna - Thread and IRQ affinity setting GUI and cmd line tool
 usbutils - A collection of USB tools to query connected USB devices
 v4l2loopback-dkms - v4l2-loopback device – module sources
 v4l2loopback-utils - v4l2-loopback device – utilities only
-vlc - Multi-platform MPEG, VCD/DVD, and DivX player
+vlc - Free and open source cross-platform multimedia player and framework
 vulkan-tools - Vulkan tools and utilities
 wget - Network utility to retrieve files from the web
+wine-gecko - Wine's built-in replacement for Microsoft's Internet Explorer
+wine-mono - Wine's built-in replacement for Microsoft's .NET Framework
+winetricks - Script to install various redistributable runtime libraries in Wine.
 wmctrl - Control your EWMH compliant window manager from command line
+woff2-font-awesome - Iconic font designed for Bootstrap - woff2 format
 xdotool - Command-line X11 automation tool
 xfce4-pulseaudio-plugin - Pulseaudio plugin for the Xfce4 panel
 xorg-server - Xorg X server
@@ -217,6 +225,8 @@ xorg-xinit - X.Org initialisation program
 xorg-xinput - Small commandline tool to configure devices
 xorg-xwininfo - Command-line utility to print information about windows on an X server
 xterm - X Terminal Emulator
+yabridge - A modern and transparent way to use Windows VST2 and VST3 plugins on Linux
+yabridgectl - Optional utility to help set up and manage yabridge
 zenith - Terminal system monitor with histograms
 zenity - Display graphical dialog boxes from shell scripts
 
@@ -228,8 +238,11 @@ ddcci-driver-linux-dkms-git - A pair of Linux kernel drivers for DDC/CI monitors
 gyroflow - Video stabilization using gyroscope data
 hid-ite8291r3-dkms-git - Linux kernel driver for the ITE 8291 (rev 0.03) RGB keyboard backlight controller
 hunspell-pt-br - Brazillian Portuguese grammar, spelling and hyphenation checker to hunspell
+jre - Oracle Java Runtime Environment
 laptop-mode-tools - Power saving tool for Linux
 lib32-obs-vkcapture - OBS Linux Vulkan/OpenGL game capture (32-bit)
+makemkv - DVD and Blu-ray to MKV converter
+makemkv-debug - Detached debugging symbols for makemkv
 mkinitcpio-numlock - Enable numlock in early userspace
 obs-vkcapture - OBS Linux Vulkan/OpenGL game capture
 phonon-qt6-mpv - Phonon MPV backend for Qt6
@@ -238,6 +251,7 @@ python-diffusers - Pretrained diffusion models for image and audio generation in
 python-safetensors - Simple, safe way to store and distribute tensors
 python-wordcloud - A little word cloud generator in Python
 qt5-datavis3d - Qt Data Visualization module
+rar - A command-line port of the rar compression utility.
 realtime-generic-setup - Generic realtime setup configuration
 rofi-mixer-git - A script that generates a rofi menu that uses bluetoothctl to connect to bluetooth devices and display status info
 rtapp - Realtime application thread priority tuning
@@ -248,6 +262,7 @@ tuxedo-drivers-dkms - TUXEDO Computers kernel module drivers for keyboard, keybo
 yay - Yet another yogurt. Pacman wrapper and AUR helper written in go.
 yt6801-dkms - Kernel module for Motorcomm YT6801 ethernet controller (DKMS)
 zoom - Video Conferencing and Web Conferencing Service
+zotero - A free, easy-to-use tool to help you collect, organize, cite, and share your research sources.
 zsh-theme-powerlevel10k-git - Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
 
 

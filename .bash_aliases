@@ -17,3 +17,4 @@ alias wiki='.config/scripts/archwiki-offline'
 alias screen-connect='.config/scripts/screen-connect.sh'
 
 alias colmis='cd /mnt/storage/Stuff/tux_bkp/GitProjects/colectiveMisinterpretation && ./collectiveMisinterpretation.sh'
+alias play-colmis='cd /mnt/storage/Stuff/tux_bkp/GitProjects/colectiveMisinterpretation && pw-play initial-assets/audio-mov1.wav'
