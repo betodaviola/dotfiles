@@ -19,10 +19,10 @@
 `.`                                 `/
 ### System Overview ###
 OS: Arch Linux
-Kernel: 6.16.0-arch2-1
-Uptime: up 27 minutes
+Kernel: 6.16.7-arch1-1
+Uptime: up 5 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1262
+Packages (pacman): 1265
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -67,7 +67,7 @@ git - the fast distributed version control system
 gnuplot - Plotting package which outputs to X11, PostScript, PNG, GIF, and others
 gobject-introspection - Introspection system for GObject-based libraries
 grub - GNU GRand Unified Bootloader (2)
-gucharmap - Gnome Unicode Charmap
+gucharmap - Unicode Character Map
 helvum - GTK patchbay for PipeWire
 htop - Interactive process viewer
 hunspell-en_us - US English hunspell dictionaries
@@ -242,7 +242,6 @@ jre - Oracle Java Runtime Environment
 laptop-mode-tools - Power saving tool for Linux
 lib32-obs-vkcapture - OBS Linux Vulkan/OpenGL game capture (32-bit)
 makemkv - DVD and Blu-ray to MKV converter
-makemkv-debug - Detached debugging symbols for makemkv
 mkinitcpio-numlock - Enable numlock in early userspace
 obs-vkcapture - OBS Linux Vulkan/OpenGL game capture
 phonon-qt6-mpv - Phonon MPV backend for Qt6
