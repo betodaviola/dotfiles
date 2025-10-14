@@ -19,10 +19,10 @@
 `.`                                 `/
 ### System Overview ###
 OS: Arch Linux
-Kernel: 6.16.7-arch1-1
-Uptime: up 5 minutes
+Kernel: 6.16.8-arch3-1
+Uptime: up 51 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1265
+Packages (pacman): 1351
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -46,6 +46,7 @@ base - Minimal package set to define a basic Arch Linux installation
 base-devel - Basic tools to build Arch Linux packages
 code - The Open Source build of Visual Studio Code (vscode) editor
 conky - Light-weight system monitor for X, Wayland, and other things, too
+copyq - Clipboard manager with searchable and editable history
 cpupower - Linux kernel tool to examine and tune power saving related features of your processor
 cups - OpenPrinting CUPS - daemon package
 cups-pdf - PDF printer for cups
@@ -114,6 +115,7 @@ obs-studio - Free, open source software for live streaming and recording
 ollama-cuda - Create, run and share large language models (LLMs) with CUDA
 os-prober - Utility to detect other OSes on a set of drives
 pacman-contrib - Contributed scripts and tools for pacman systems
+pavucontrol - PulseAudio Volume Control
 picom - Lightweight compositor for X11
 pipewire - Low-latency audio/video router and processor
 polkit-gnome - Legacy polkit authentication agent for GNOME
@@ -211,6 +213,7 @@ usbutils - A collection of USB tools to query connected USB devices
 v4l2loopback-dkms - v4l2-loopback device – module sources
 v4l2loopback-utils - v4l2-loopback device – utilities only
 vlc - Free and open source cross-platform multimedia player and framework
+vlc-plugins-all - Free and open source cross-platform multimedia player and framework - all plugins
 vulkan-tools - Vulkan tools and utilities
 wget - Network utility to retrieve files from the web
 wine-gecko - Wine's built-in replacement for Microsoft's Internet Explorer
