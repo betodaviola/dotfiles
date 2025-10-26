@@ -298,3 +298,6 @@ for_window [window_type="dialog"] floating enable
 #for_window [class="Pqiv"] move to workspace 11
 assign [class="Pqiv"] → 11
 assign [class="pqiv"] → 11
+
+# allows windoes plugins like melodine to be useful inside bitwig
+for_window [class="yabridge-host.exe"] floating enable, focus
