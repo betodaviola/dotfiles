@@ -60,18 +60,18 @@ rm -rf ~/.cache/*
 
 # A script to empty all user trash cans on the system
 
-echo "🗑️  Emptying home directory trash..."
+echo "Emptying home directory trash..."
 # Safely remove the contents of the files and info directories
 rm -rf ~/.local/share/Trash/files/*
 rm -rf ~/.local/share/Trash/info/*
 
-echo "🗑️  Searching for and emptying trash on other drives..."
+echo "Searching for and emptying trash on other drives..."
 # Find all .Trash-1000 directories in common mount locations and empty them
 # The '2>/dev/null' hides any "permission denied" errors for folders you can't access
 for trash_dir in $(find /mnt /run/media -type d -name ".Trash-1000" 2>/dev/null); do
-  echo "   - Emptying $trash_dir"
+  echo "- Emptying $trash_dir"
   rm -rf "$trash_dir/files/*"
   rm -rf "$trash_dir/info/*"
 done
 
-echo "✅ Cleanup complete!"
+echo "Cleanup complete!"

@@ -20,9 +20,9 @@
 ### System Overview ###
 OS: Arch Linux
 Kernel: 6.17.1-arch1-1
-Uptime: up 2 hours, 45 minutes
+Uptime: up 55 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1352
+Packages (pacman): 1355
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -100,6 +100,7 @@ linux-headers - Headers and scripts for building modules for the Linux kernel
 loupe - A simple image viewer for GNOME
 ltrace - Tracks runtime library calls in dynamically linked programs
 mesa-utils - Essential Mesa utilities
+musescore - Create, play and print beautiful sheet music
 mythes-en - English thesaurus
 nano - Pico editor clone with enhancements
 networkmanager - Network connection manager and user applications
