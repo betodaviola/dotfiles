@@ -19,10 +19,10 @@
 `.`                                 `/
 ### System Overview ###
 OS: Arch Linux
-Kernel: 6.17.1-arch1-1
-Uptime: up 55 minutes
+Kernel: 6.17.6-arch1-1
+Uptime: up 11 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1355
+Packages (pacman): 1358
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -45,7 +45,6 @@ ardour - Professional-grade digital audio workstation
 base - Minimal package set to define a basic Arch Linux installation
 base-devel - Basic tools to build Arch Linux packages
 code - The Open Source build of Visual Studio Code (vscode) editor
-conky - Light-weight system monitor for X, Wayland, and other things, too
 copyq - Clipboard manager with searchable and editable history
 cpupower - Linux kernel tool to examine and tune power saving related features of your processor
 cups - OpenPrinting CUPS - daemon package
@@ -136,8 +135,6 @@ qt5-3d - C++ and QML APIs for easy inclusion of 3D graphics
 qt5-charts - Provides a set of easy to use chart components
 qt5-connectivity - Provides access to Bluetooth hardware
 qt5-declarative - Classes for QML and JavaScript languages
-qt5-doc - A cross-platform application and UI framework (Documentation)
-qt5-examples - Examples and demos from qt5 documentation
 qt5-graphicaleffects - Graphical effects for use with Qt Quick 2
 qt5-imageformats - Plugins for additional image formats: TIFF, MNG, TGA, WBMP
 qt5-location - Provides access to position, satellite and area monitoring classes
@@ -201,7 +198,6 @@ sshfs - FUSE client based on the SSH File Transfer Protocol
 strace - A diagnostic, debugging and instructional userspace tracer
 sudo - Give certain users the ability to run some commands as root
 syncthing - Open Source Continuous Replication / Cluster Synchronization Thing
-thunderbird - Standalone mail and news reader from mozilla.org
 timeshift - A system restore utility for Linux
 ttf-caladea - A serif font family metric-compatible with Cambria font family
 ttf-carlito - Google's Carlito font
@@ -255,6 +251,8 @@ python-diffusers - Pretrained diffusion models for image and audio generation in
 python-safetensors - Simple, safe way to store and distribute tensors
 python-wordcloud - A little word cloud generator in Python
 qt5-datavis3d - Qt Data Visualization module
+qt5-doc - A cross-platform application and UI framework (Documentation)
+qt5-examples - Examples and demos from qt5 documentation
 rar - A command-line port of the rar compression utility.
 realtime-generic-setup - Generic realtime setup configuration
 rofi-mixer-git - A script that generates a rofi menu that uses bluetoothctl to connect to bluetooth devices and display status info
