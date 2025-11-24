@@ -20,9 +20,9 @@
 ### System Overview ###
 OS: Arch Linux
 Kernel: 6.17.7-arch1-1
-Uptime: up 24 minutes
+Uptime: up 58 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1370
+Packages (pacman): 1374
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -57,6 +57,7 @@ docker-compose - Fast, isolated development environments using Docker
 dolphin - KDE File Manager
 dunst - Customizable and lightweight notification-daemon
 efibootmgr - Linux user-space application to modify the EFI Boot Manager
+exfat-utils - Utilities for exFAT file system
 fastfetch - A feature-rich and performance oriented neofetch like system information tool
 feh - Fast and light imlib2-based image viewer
 firefox - Fast, Private & Safe Web Browser
@@ -245,8 +246,6 @@ python-wordcloud - A little word cloud generator in Python
 qt5-charts - Provides a set of easy to use chart components
 qt5-connectivity - Provides access to Bluetooth hardware
 qt5-datavis3d - Qt Data Visualization module
-qt5-doc - A cross-platform application and UI framework (Documentation)
-qt5-examples - Examples and demos from qt5 documentation
 qt5-quick3d - Qt module and API for defining 3D content in Qt Quick
 qt5-remoteobjects - Inter-process communication (IPC) module developed for Qt
 qt5-scxml - Static and runtime integration of SCXML models into Qt code
