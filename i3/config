@@ -247,6 +247,9 @@ bindsym $mod+r mode "resize"
 #default software and keybinds
 bindsym $mod+b exec firefox
 bindsym $mod+f exec dolphin
+#flameshot
+bindsym $mod+shift+s exec flameshot gui
+
 
 #commands
 exec_always --no-startup-id feh --bg-fill /home/beto/Pictures/wallpapers/sfwtux.png #set wallpaper
@@ -255,7 +258,7 @@ exec_always --no-startup-id numlockx &
 exec --no-startup-id picom -b
 exec --no-startup-id copyq
 
-#scripts
+#scripts and startup
 exec --no-startup-id ~/.config/scripts/screen-autoset.sh
 #this is now handled by the script screen-autoset.sh: exec_always --no-startup-id ~/.config/scripts/polybar1-launch.sh
 exec --no-startup-id ~/scripts/nvidia-setup.sh
