@@ -19,10 +19,10 @@
 `.`                                 `/
 ### System Overview ###
 OS: Arch Linux
-Kernel: 6.17.8-arch1-1
-Uptime: up 45 minutes
+Kernel: 6.17.9-arch1-1
+Uptime: up 2 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1361
+Packages (pacman): 1363
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -118,6 +118,7 @@ ollama-cuda - Create, run and share large language models (LLMs) with CUDA
 os-prober - Utility to detect other OSes on a set of drives
 pacman-contrib - Contributed scripts and tools for pacman systems
 pavucontrol - PulseAudio Volume Control
+php - A general-purpose scripting language that is especially suited to web development
 picom - Lightweight compositor for X11
 pipewire - Low-latency audio/video router and processor
 polkit-gnome - Legacy polkit authentication agent for GNOME
@@ -258,6 +259,7 @@ rofi-mixer-git - A script that generates a rofi menu that uses bluetoothctl to c
 rtapp - Realtime application thread priority tuning
 ttf-gentium-basic - Fonts based on the original Gentium design with additional weights
 ttf-meslo-nerd-font-powerlevel10k - Meslo Nerd Font patched for Powerlevel10k
+ttf-ms-fonts - Core TTF Fonts from Microsoft
 tuxedo-control-center-bin - A tool to help you control performance, energy, fan and comfort settings on TUXEDO laptops.
 tuxedo-drivers-dkms - TUXEDO Computers kernel module drivers for keyboard, keyboard backlight & general hardware I/O using the SysFS interface
 yay - Yet another yogurt. Pacman wrapper and AUR helper written in go.
