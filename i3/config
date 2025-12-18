@@ -264,6 +264,10 @@ exec --no-startup-id ~/.config/scripts/screen-autoset.sh
 #this is now handled by the script screen-autoset.sh: exec_always --no-startup-id ~/.config/scripts/polybar1-launch.sh
 exec --no-startup-id ~/scripts/nvidia-setup.sh
 
+#brightness keys
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+
 ##i3s
 focus_follows_mouse no
 default_border pixel 3
@@ -281,7 +285,6 @@ set $yellow #f1e196
 	client.unfocused        $pink   $pink   #888888 $pink     $pink
 	client.urgent           $wine   $wine   #ffffff $wine     $wine   
 	client.placeholder      $yellow #0c0c0c #ffffff $yellow   #0c0c0c
-	
 	client.background       #ffffff
 
 #gaps

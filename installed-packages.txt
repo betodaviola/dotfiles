@@ -20,9 +20,9 @@
 ### System Overview ###
 OS: Arch Linux
 Kernel: 6.17.9-arch1-1
-Uptime: up 2 hours, 52 minutes
+Uptime: up 10 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1368
+Packages (pacman): 1373
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -44,6 +44,7 @@ arch-wiki-docs - Pages from Arch Wiki optimized for offline browsing
 ardour - Professional-grade digital audio workstation
 base - Minimal package set to define a basic Arch Linux installation
 base-devel - Basic tools to build Arch Linux packages
+brightnessctl - Lightweight brightness control tool
 code - The Open Source build of Visual Studio Code (vscode) editor
 copyq - Clipboard manager with searchable and editable history
 cpupower - Linux kernel tool to examine and tune power saving related features of your processor
@@ -103,6 +104,7 @@ mesa-utils - Essential Mesa utilities
 musescore - Create, play and print beautiful sheet music
 mythes-en - English thesaurus
 nano - Pico editor clone with enhancements
+nano-syntax-highlighting - Nano editor syntax highlighting enhancements
 networkmanager - Network connection manager and user applications
 network-manager-applet - Applet for managing network connections
 noto-fonts - Google Noto TTF fonts
