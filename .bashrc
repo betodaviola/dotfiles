@@ -169,3 +169,7 @@ eval "$(pyenv init -)"
 
 export HF_HOME="/mnt/storage/stableAudioModels"
 alias set-focusrite='wpctl set-default alsa_output.usb-Focusrite_Scarlett_Solo_USB-00.pro-output-0'
+
+export EDITOR=nano
+export VISUAL=nano
+export TERMINAL=kitty
