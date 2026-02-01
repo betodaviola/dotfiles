@@ -19,10 +19,10 @@
 `.`                                 `/
 ### System Overview ###
 OS: Arch Linux
-Kernel: 6.18.2-arch2-1
-Uptime: up 1 hour, 32 minutes
+Kernel: 6.18.5-arch1-1
+Uptime: up 5 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1411
+Packages (pacman): 1423
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -42,6 +42,7 @@ arandr - Provide a simple visual front end for XRandR 1.2.
 archlinux-xdg-menu - automatic generate WM menu from xdg files
 arch-wiki-docs - Pages from Arch Wiki optimized for offline browsing
 ardour - Professional-grade digital audio workstation
+audacity - A program that lets you manipulate digital audio waveforms
 base - Minimal package set to define a basic Arch Linux installation
 base-devel - Basic tools to build Arch Linux packages
 brightnessctl - Lightweight brightness control tool
