@@ -20,9 +20,9 @@
 ### System Overview ###
 OS: Arch Linux
 Kernel: 6.18.7-arch1-1
-Uptime: up 2 minutes
+Uptime: up 45 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1431
+Packages (pacman): 1449
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -256,6 +256,7 @@ p7zip-gui - Graphic user interface (alpha quality) for the p7zip file archiver
 p7zip-gui-debug - Detached debugging symbols for p7zip-gui
 phonon-qt6-mpv - Phonon MPV backend for Qt6
 plugdata-bin - Plugin wrapper around Pure Data with a new JUCE GUI, allowing patching in DAWs
+plugdata-bin-debug - Detached debugging symbols for plugdata-bin
 python-diffusers - Pretrained diffusion models for image and audio generation in PyTorch
 python-safetensors - Simple, safe way to store and distribute tensors
 python-screeninfo - Python library to fetch location and size of physical screens
@@ -270,6 +271,7 @@ qt5-webchannel - Provides access to QObject or QML objects from HTML clients for
 qt5-webengine - Provides support for web applications using the Chromium browser project
 qt5-websockets - Provides WebSocket communication compliant with RFC 6455
 rar - A command-line port of the rar compression utility.
+rar-debug - Detached debugging symbols for rar
 realtime-generic-setup - Generic realtime setup configuration
 rofi-mixer-git - A script that generates a rofi menu that uses bluetoothctl to connect to bluetooth devices and display status info
 rtapp - Realtime application thread priority tuning
@@ -282,6 +284,7 @@ yay - Yet another yogurt. Pacman wrapper and AUR helper written in go.
 yt6801-dkms - Kernel module for Motorcomm YT6801 ethernet controller (DKMS)
 zoom - Video Conferencing and Web Conferencing Service
 zotero - A free, easy-to-use tool to help you collect, organize, cite, and share your research sources.
+zotero-debug - Detached debugging symbols for zotero
 zsh-theme-powerlevel10k-git - Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
 
 
