@@ -19,10 +19,10 @@
 `.`                                 `/
 ### System Overview ###
 OS: Arch Linux
-Kernel: 6.18.9-arch1-2
-Uptime: up 4 minutes
+Kernel: 6.19.11-arch1-1
+Uptime: up 1 hour, 3 minutes
 Shell: /usr/bin/bash
-Packages (pacman): 1437
+Packages (pacman): 1455
 WM/DE: i3
 Terminal: xterm-kitty
 CPU: Intel(R) Core(TM) i9-14900HX
@@ -39,6 +39,8 @@ adobe-source-sans-fonts - Sans-serif font family for user interface environments
 adobe-source-serif-fonts - Serif typeface designed to complement Source Sans
 alsa-firmware - Firmware binaries for loader programs in alsa-tools and hotplug firmware loader
 alsa-utils - Advanced Linux Sound Architecture - Utilities
+android-tools - Android platform tools
+android-udev - Udev rules to connect Android devices to your linux box
 arandr - Provide a simple visual front end for XRandR 1.2.
 archlinux-xdg-menu - automatic generate WM menu from xdg files
 arch-wiki-docs - Pages from Arch Wiki optimized for offline browsing
@@ -143,17 +145,14 @@ python-playwright - A Python library to automate Chromium, Firefox and WebKit br
 python-virtualenv - Virtual Python Environment builder
 qbittorrent - An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
 qpwgraph - PipeWire Graph Qt GUI Interface
-qt5-3d - C++ and QML APIs for easy inclusion of 3D graphics
 qt5-declarative - Classes for QML and JavaScript languages
 qt5-graphicaleffects - Graphical effects for use with Qt Quick 2
 qt5-imageformats - Plugins for additional image formats: TIFF, MNG, TGA, WBMP
-qt5-location - Provides access to position, satellite and area monitoring classes
 qt5-multimedia - Classes for audio, video, radio and camera functionality
 qt5-networkauth - Network authentication module
 qt5-quickcontrols - Reusable Qt Quick based UI controls to create classic desktop-style user interfaces
 qt5-quickcontrols2 - Next generation user interface controls based on Qt Quick
 qt5-script - Classes for making Qt applications scriptable. Provided for Qt 4.x compatibility
-qt5-sensors - Provides access to sensor hardware and motion gesture recognition
 qt5-serialport - Provides access to hardware and virtual serial ports
 qt5-speech - Qt module to make text to speech and speech recognition easy
 qt5-tools - A cross-platform application and UI framework (Development Tools, QtHelp)
@@ -243,6 +242,8 @@ zenity - Display graphical dialog boxes from shell scripts
 bitwig-studio - Digital audio workstation for music production, remixing and live performance
 clipse - A configurable TUI clipboard manager for Unix, built for wayland.
 ddcci-driver-linux-dkms-git - A pair of Linux kernel drivers for DDC/CI monitors (DKMS) - git version
+f3 - Simple tool that tests flash cards capacity and performance to see if they live up to claimed specifications
+f3-debug - Detached debugging symbols for f3
 gyroflow - Video stabilization using gyroscope data
 hid-ite8291r3-dkms-git - Linux kernel driver for the ITE 8291 (rev 0.03) RGB keyboard backlight controller
 hunspell-pt-br - Brazillian Portuguese grammar, spelling and hyphenation checker to hunspell
@@ -256,15 +257,17 @@ p7zip-gui - Graphic user interface (alpha quality) for the p7zip file archiver
 phonon-qt6-mpv - Phonon MPV backend for Qt6
 plugdata-bin - Plugin wrapper around Pure Data with a new JUCE GUI, allowing patching in DAWs
 python-diffusers - Pretrained diffusion models for image and audio generation in PyTorch
-python-safetensors - Simple, safe way to store and distribute tensors
 python-screeninfo - Python library to fetch location and size of physical screens
 python-wordcloud - A little word cloud generator in Python
+qt5-3d - C++ and QML APIs for easy inclusion of 3D graphics
 qt5-charts - Provides a set of easy to use chart components
 qt5-connectivity - Provides access to Bluetooth hardware
 qt5-datavis3d - Qt Data Visualization module
+qt5-location - Provides access to position, satellite and area monitoring classes
 qt5-quick3d - Qt module and API for defining 3D content in Qt Quick
 qt5-remoteobjects - Inter-process communication (IPC) module developed for Qt
 qt5-scxml - Static and runtime integration of SCXML models into Qt code
+qt5-sensors - Provides access to sensor hardware and motion gesture recognition
 qt5-webchannel - Provides access to QObject or QML objects from HTML clients for seamless integration of Qt applications with HTML/JavaScript clients
 qt5-webengine - Provides support for web applications using the Chromium browser project
 qt5-websockets - Provides WebSocket communication compliant with RFC 6455
@@ -277,6 +280,7 @@ ttf-meslo-nerd-font-powerlevel10k - Meslo Nerd Font patched for Powerlevel10k
 ttf-ms-fonts - Core TTF Fonts from Microsoft
 tuxedo-control-center-bin - A tool to help you control performance, energy, fan and comfort settings on TUXEDO laptops.
 tuxedo-drivers-dkms - TUXEDO Computers kernel module drivers for keyboard, keyboard backlight & general hardware I/O using the SysFS interface
+webkit2gtk - Web content engine for GTK
 yay - Yet another yogurt. Pacman wrapper and AUR helper written in go.
 yt6801-dkms - Kernel module for Motorcomm YT6801 ethernet controller (DKMS)
 zoom - Video Conferencing and Web Conferencing Service
